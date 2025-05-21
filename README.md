@@ -1,6 +1,6 @@
 # Full-Stack Website (MERN)
 
-A full-stack task tracking web application built with the **MERN** stack (MongoDB, Express.js, React, Node.js).  
+A full-stack task tracking web application built primarily in **JavaScript** using the **MERN** stack (MongoDB, Express.js, React, Node.js).  
 This project served as an exploration and hands-on learning experience in developing and structuring a modern web app using a RESTful API and component-based frontend.
 
 ![App Screenshot](./LogScreenshot.png)
@@ -18,6 +18,9 @@ This project served as an exploration and hands-on learning experience in develo
 ---
 
 ## Tech Stack
+
+**Languages**:
+- JavaScript (ES6+)
 
 **Frontend**:
 - React.js
