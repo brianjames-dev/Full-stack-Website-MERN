@@ -1,0 +1,341 @@
+/*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+/*  ===== See tablet, desktop, and print @media queries at the bottom. */
+
+
+/*   ----- Imports  -----  */
+  /* @import 'node_modules/modern-normalize/modern-normalize.css';  npm install modern-normalize  Resets elements for browser consistency.  https://www.npmjs.com/package/modern-normalize */         
+  /* @import "component1.css";   Component-specific stylesheets, if any.   */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;700&display=swap'); /* Add fonts from a hosted services like Google Fonts. */
+
+
+/*   ----- Variables  -----  */
+:root {
+    --slate: #200808;
+    --lightBeige: #feeed7;
+    --lighterBeige: rgb(255, 245, 232);
+    --almostWhite: #fcfcfc;
+    --tan: #c87855;
+    --tongue: #ae4e52;
+    --lightBrown: #855e4d;
+
+    --lightBeigeAlpha: rgba(254, 238, 215, .7);
+
+   /* --custom-embellishment-name:;  */
+  }
+  
+  /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+  body {
+    background-image:url(images/buster-boy-background.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    color: var(--slate);
+    max-width: 75%;
+    background-color: var(--lightBeige);
+    font-family: 'Roboto', sans-serif;
+    margin: 2% 10%;
+    padding: 0%;
+  }  
+  
+/*    ----- Page layout blocks -----  */
+  header {
+    background-color: var(--tongue);
+    border: 3px solid var(--slate);
+    color: var(--almostWhite);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  main {
+    background-color: var(--lightBeige);
+    border: 3px solid var(--slate);
+    color: var(--slate);
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  section {
+    background-color: var(--lightBeige);
+    border: 3px solid var(--tan);
+    color: var(--slate);
+    padding: 30px;
+  }
+  /*
+  article {}
+    #topic1 {}
+    #topic2 {}
+  div {}
+  aside {} */
+  footer {
+    background-color: var(--tan);
+    border: 3px solid var(--slate);
+    color: var(--slate);
+    padding: 30px;
+    margin-bottom: 20px;
+  } 
+  
+  /* ----- Anchors ----- Text links 
+  a {}
+  a:link {}
+  a:hover {}
+  a:active {}
+  a:visited {}  */
+  
+  /*  ----- Navigation ----- Override text links for navigation only.  */
+  nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: var(--lightBeige);
+    border: 3px solid var(--slate);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  nav a {
+    display: flex;
+    flex-flow: row;
+    text-decoration: none;
+    color: var(--slate);
+    background-color: var(--lightBeige);
+    padding: 12px 20px;
+    margin: 0 5px;
+    border: 3px solid var(--tan);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  nav a:hover {
+    background-color: var(--lightBrown);
+    color: var(--lightBeige);
+    border: 3px solid var(--slate);
+  }
+  
+  /*  -----  Typography  ----- 
+  p {}
+  br {}
+  ol, ul, dl {}
+  li {}
+  dt {}
+  dd {} */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  } 
+  /*
+  h1 {}
+  h2 {}
+  h3 {}
+  h4 {}
+  h5 {}
+  h6 {}
+  
+  abbr {}
+  acronym {}
+  address {}
+  blockquote {}
+    q {}
+    cite {}
+  em {}
+  hr {}
+  mark {}
+  s {}
+  span {}
+  strong {}
+  sub {}
+  sup {}
+  time {} */
+  
+  /*  ----- Coding or instructional typography ----- 
+  pre {}
+  code {}
+  kbd {}
+  samp {}
+  var {}
+  del {} 
+  ins {}  */
+  
+  /*  ----- Table ----- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+  }
+  caption {
+    color: var(--slate);
+    background-color: var(--slate);
+    margin-bottom: 2%;
+    padding: 1%;
+    border: none;
+  }
+  /*
+  thead {}
+  tbody {}
+  tfoot {}
+  tr {}
+    tr:nth-child(even) {}
+  */
+  th, td {
+    background-color: var(--almostWhite);
+    border-bottom: 1px solid var(--tongue);
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    color: var(--almostWhite);
+    background-color: var(--tongue);
+  }
+  td {
+    padding: 10px;
+    border-bottom: 1px solid var(--tongue);
+  }
+    /*
+    td:nth-child(1) {}
+  colgroup {}
+  data {}
+  datalist {}  */
+  
+  
+  /*  ----- Form ----- */
+  form, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+  }
+  fieldset {
+    border: 2px solid var(--tan);
+    background-color: var(--lighterBeige);
+    margin-bottom: 4%;
+    padding: 2%;
+  }
+    legend {
+      border: 2px solid var(--tan);
+      background-color: var(--lighterBeige);
+      padding: 1%;
+    }
+  label {
+    color: var(--slate);
+    background-color: var(--);;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: none;
+  }
+  input {
+    color: var(--slate);
+    background-color: var(--almostWhite);;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid var(--slate);
+  }
+  button {
+    color: var(--almostWhite);
+    font-size: 1.3rem;
+    background-color: var(--tongue);
+    border: 1px solid var(--slate);
+    padding: 2% 4%;
+  }
+  select {
+    color: var(--slate);
+    background-color: var(--almostWhite);;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid var(--slate);
+  }
+  /*
+    optgroup {}
+    option {}
+    */
+  textarea {
+    color: var(--slate);
+    background-color: var(--almostWhite);;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid var(--slate);
+  }
+  /*
+  output {}
+  meter {}
+  progress {}  */
+  
+  
+  /* ----- Media ----- */
+  /*
+  figure {}
+    figcaption {}
+    figure img {}
+  svg {}
+  picture {}
+    source {}
+  iframe {}
+  video {}
+  audio {}
+  embed {}
+  object {}  
+  */
+  /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+  .gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    background-color: var(--lightBeige);
+  }
+  .gallery figure {
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+  }
+  .gallery img {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 2px solid var(--slate);
+  }
+  .gallery figcaption {
+    color: var(--slate);
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+  }
+  /*
+  .floatright {}
+  .floatleft {}
+  .center-middle {}
+  
+  .ten {}
+  .twenty {}
+  .thirty {}
+  .forty {}
+  .fifty {}
+  .sixty {}
+  .seventy {}
+  .eighty {}
+  
+  .radius {}
+  .circle {}
+  .boxshadow {}
+  .tshadow {} 
+  .gradient {}
+  .shape {} 
+
+/* ------- Placeholder text ------- */
+::placeholder {
+  color: var(--lightBrown);
+}
+
+  @keyframes App-logo-spin {
+    from {transform: rotate(  0deg);}
+    to   {transform: rotate(360deg);}
+
+  }
+  
+  /*   ===== TABLET  media query overrides mobile styles ===== 
+  @media all and (min-width: 600px) {}  */
+  
+  /*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+  @media (prefers-reduced-motion: no-preference) {
+    h1 i .App-logo{
+      animation: App-logo-spin infinite 15s linear;
+    }
+  }  
+  
+  /*   ===== PRINT  media query overrides previous styles =====  
+  @media print {}  */
+  

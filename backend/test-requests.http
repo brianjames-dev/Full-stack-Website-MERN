@@ -1,0 +1,82 @@
+### CREATE five documents.
+POST http://localhost:3000/tasks HTTP/1.1
+content-type: application/json
+
+{
+    "task": "Assignment 7 ~ Portfolio Backend",
+    "priority": 1,
+    "due_date": "12-03-23"
+}
+
+
+### CREATE 2
+POST http://localhost:3000/tasks HTTP/1.1
+content-type: application/json
+
+{
+    "task": "Homework 9: Group Part",
+    "priority": 2,
+    "due_date": "12-03-23"
+}
+
+### CREATE 3
+POST http://localhost:3000/tasks HTTP/1.1
+content-type: application/json
+
+{
+    "task": "Homework 9: NP-Completeness and Heuristic Algorithms",
+    "priority": 3,
+    "due_date": "12-04-23"
+}
+
+### CREATE 4
+POST http://localhost:3000/tasks HTTP/1.1
+content-type: application/json
+
+{
+    "task": "S3.7 - Assignment 11: Integration (Milestone #3)",
+    "priority": 4,
+    "due_date": "12-04-23"
+}
+
+### CREATE 5
+POST http://localhost:3000/tasks HTTP/1.1
+content-type: application/json
+
+{
+    "task": "Module 10 - Discussion #10",
+    "priority": 5,
+    "due_date": "12-06-23"
+}
+
+
+### RETRIEVE all documents.
+GET http://localhost:3000/tasks HTTP/1.1
+
+
+
+### RETRIEVE a document by its ID.
+### Replace the following ID with one that exists in the collection.
+GET http://localhost:3000/tasks/657962db708dee147a19ebc7 HTTP/1.1
+
+
+### UPDATE one document's priority, by ID.
+### Replace the ID in the following request with one that exists
+### and update the priority:
+PUT http://localhost:3000/tasks/65798d4f708dee147a19ec52 HTTP/1.1
+content-type: application/json
+
+{
+    "task": "Module 10 - Discussion #10",
+    "priority": 10,
+    "due_date": "12-06-2023"
+}
+
+### DELETE by ID (responds with nothing if successful):
+DELETE http://localhost:3000/tasks/656bfd7a288f4064cbefa0b8 HTTP/1.1
+
+
+
+### RETRIEVE all documents (responds with 4 or the original 5):
+GET http://localhost:3000/tasks HTTP/1.1
+
