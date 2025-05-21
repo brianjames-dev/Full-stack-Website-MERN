@@ -89,12 +89,6 @@ backend/     --> Express server + MongoDB logic
 
 ---
 
-## Note
-
-This project is for portfolio and learning purposes — no user authentication or production hosting has been implemented.
-
----
-
 ## Author
 
 **Brian James**  
