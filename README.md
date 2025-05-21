@@ -77,7 +77,7 @@ This project served as an exploration and hands-on learning experience in develo
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 frontend/    --> React app
@@ -86,19 +86,13 @@ backend/     --> Express server + MongoDB logic
 
 ---
 
-## 📸 Screenshot
-
-![Screenshot](./LogScreenshot.png)
-
----
-
-## 📌 Note
+## Note
 
 This project is for portfolio and learning purposes — no user authentication or production hosting has been implemented.
 
 ---
 
-## ✍️ Author
+## Author
 
 **Brian James**  
 [GitHub: @brianjames-dev](https://github.com/brianjames-dev)
