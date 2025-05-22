@@ -5,8 +5,6 @@ This project served as an exploration and hands-on learning experience in develo
 
 ![App Screenshot](./LogScreenshot.png)
 
----
-
 ## Features
 
 - Task manager with **Create, Read, Update, Delete (CRUD)** functionality
@@ -14,8 +12,6 @@ This project served as an exploration and hands-on learning experience in develo
 - In-page **jump links** for smoother user experience
 - Clean and responsive UI built with **React and CSS**
 - Organized backend with **modular controllers and models**
-
----
 
 ## Tech Stack
 
@@ -31,7 +27,6 @@ This project served as an exploration and hands-on learning experience in develo
 - Express.js
 - MongoDB (NoSQL database)
 
----
 
 ## How to Run Locally
 
@@ -70,7 +65,6 @@ This project served as an exploration and hands-on learning experience in develo
 4. Open your browser at:  
    [http://localhost:3000](http://localhost:3000)
 
----
 
 ## Learning Goals
 
@@ -78,7 +72,6 @@ This project served as an exploration and hands-on learning experience in develo
 - Gained familiarity with API routing, state management, and modular React design
 - Experimented with UI navigation and user interaction patterns
 
----
 
 ## Folder Structure
 
@@ -87,9 +80,11 @@ frontend/    --> React app
 backend/     --> Express server + MongoDB logic
 ```
 
----
 
 ## Author
 
 **Brian James**  
-[GitHub: @brianjames-dev](https://github.com/brianjames-dev)
+
+📧 [brianjames.dev@gmail.com](mailto:brianjames.dev@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/brianjames-dev/)  
+🎸 [Instagram](https://www.instagram.com/brianallenjames)
